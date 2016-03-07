@@ -20,6 +20,7 @@ module SimplehrFeed
                                         )
       end
     config.to_prepare do
+      # TODO: move these contents instead of polluting here
       require 'public_activity'
       klasses = [::Employee, ::Comment, ::Announcement]
       klasses.append(::Post) if defined?(::Post)
@@ -29,6 +30,7 @@ module SimplehrFeed
           tracked owner: proc { |controller, _model| controller.current_user if controller.present? }
         end
       end
+      ApplicationController.instance_eval { include PublicActivity::StoreController }
     end
     initializer :append_migrations do |app|
       unless app.root.to_s.match root.to_s

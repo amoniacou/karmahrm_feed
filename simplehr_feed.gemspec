@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = 'Description of SimplehrFeed.'
   s.license     = 'AGPL'
 
-  s.files = Dir['{app,config,db,lib}/**/*','Rakefile', 'README.md']
+  s.files = Dir['{app,config,db,lib}/**/*', 'Rakefile', 'README.md']
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'rails', '~> 4.2.0'
