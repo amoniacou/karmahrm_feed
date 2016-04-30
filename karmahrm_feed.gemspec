@@ -1,17 +1,17 @@
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
-require 'simplehr_feed/version'
+require 'karmahrm_feed/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'simplehr_feed'
-  s.version     = SimplehrFeed::VERSION
+  s.name        = 'karmahrm_feed'
+  s.version     = KarmaHrmFeed::VERSION
   s.authors     = ['Aboobacker MK']
   s.email       = ['aboobackervyd@gmail.com']
   s.homepage    = ''
-  s.summary     = 'Summary of SimplehrFeed.'
-  s.description = 'Description of SimplehrFeed.'
+  s.summary     = 'Summary of KarmaHrmFeed.'
+  s.description = 'Description of KarmaHrmFeed.'
   s.license     = 'AGPL'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'Rakefile', 'README.md']

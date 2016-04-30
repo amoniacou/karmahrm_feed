@@ -1,11 +1,11 @@
-module SimplehrFeed
+module KarmaHrmFeed
   class Engine < ::Rails::Engine
     if defined?(ActsAsPluggable)
-      ::ActsAsPluggable::Plugin.register(:simplehr_feed, :activity, engine: self,
+      ::ActsAsPluggable::Plugin.register(:karmahrm_feed, :activity, engine: self,
                                                                     description: 'Feed Plugin',
-                                                                    website: 'https://github.com/tachyons/simplehr_discussion',
+                                                                    website: 'https://github.com/tachyons/karmahrm_discussion',
                                                                     author: 'Aboobacker MK',
-                                                                    version: SimplehrDiscussion::VERSION,
+                                                                    version: KarmaHrmDiscussion::VERSION,
                                                                     settings: {
                                                                       display_in_topbar: true
                                                                     },

@@ -1,5 +1,5 @@
-require 'simplehr_feed/engine'
-require 'simplehr_feed/simplehr_overrides'
-module SimplehrFeed
+require 'karmahrm_feed/engine'
+require 'karmahrm_feed/simplehr_overrides'
+module KarmaHrmFeed
 end
-SimplehrFeed.attach_overrides
+KarmaHrmFeed.attach_overrides

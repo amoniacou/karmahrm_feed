@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simplehr_feed (0.0.1)
+    karmahrm_feed (0.0.1)
       autoprefixer-rails
       public_activity
       rails (~> 4.2.0)
@@ -115,7 +115,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  simplehr_feed!
+  karmahrm_feed!
   sqlite3
 
 BUNDLED WITH

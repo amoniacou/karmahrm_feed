@@ -1,4 +1,4 @@
-module SimplehrFeed
+module KarmaHrmFeed
   def self.attach_overrides
     # config.to_prepare do
     #   require 'public_activity'

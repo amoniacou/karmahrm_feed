@@ -1,3 +1,3 @@
-= SimplehrFeed
+= KarmaHrmFeed
 
-Feed plugin for SimpleHrm
+Feed plugin for KarmaHrmm
