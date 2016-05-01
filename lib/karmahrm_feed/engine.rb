@@ -5,7 +5,7 @@ module KarmaHrmFeed
                                                                     description: 'Feed Plugin',
                                                                     website: 'https://github.com/tachyons/karmahrm_discussion',
                                                                     author: 'Aboobacker MK',
-                                                                    version: KarmaHrmDiscussion::VERSION,
+                                                                    version: KarmaHrmFeed::VERSION,
                                                                     settings: {
                                                                       display_in_topbar: true
                                                                     },
