@@ -1,4 +1,4 @@
-require 'karmahrm_feed/engine'
+require 'karmahrm_feed/version'
 
 module KarmaHrmFeed
   class Engine < ::Rails::Engine
