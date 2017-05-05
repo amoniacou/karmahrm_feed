@@ -1,3 +1,5 @@
+require 'karmahrm_feed/engine'
+
 module KarmaHrmFeed
   class Engine < ::Rails::Engine
     if defined?(ActsAsPluggable)
